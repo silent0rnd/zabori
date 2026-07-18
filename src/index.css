@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-primary: #425C47;
+  --color-primary-hover: #344a39;
+  --color-warm-bg: #FDFCFB;
+  --color-stone-beige: #F2EFE9;
+  --color-stone-border: #E5E1D8;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #1f2937;
+    background-color: var(--color-warm-bg);
+  }
+}
