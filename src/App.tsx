@@ -383,6 +383,17 @@ export default function App() {
               <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
             </div>
 
+            <div className="site-author text-[11px] font-sans font-medium tracking-[0.01em] text-[#9FA89F] transition-colors hover:text-[#E5E1D8]">
+              Сайт разработан{' '}
+              <a
+                href="https://naklikay.ru/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#D8B465] underline decoration-[#D8B465]/45 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+              >
+                Максимом Мирошниковым
+              </a>
+            </div>
           </div>
         </div>
       </footer>
